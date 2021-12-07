@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Buz Test') {
       steps {
-        sh './jenkins/test-all.sh'
+        echo 'Hello Sup'
       }
     }
 
